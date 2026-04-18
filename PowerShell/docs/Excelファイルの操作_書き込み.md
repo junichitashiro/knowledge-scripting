@@ -38,39 +38,39 @@ Remove-Variable excel, workbook, worksheet
 
 #### New-Object -ComObject Excel.Application
 
-* 新規にExcelのアプリケーションを開始する
+- 新規にExcelのアプリケーションを開始する
 
 #### $excel.Visible
 
-* Excelウィンドウの表示／非表示
-  * 表示
-    * $excel.Visible = $true
-  * 非表示
-    * $excel.Visible = $false
+- Excelウィンドウの表示／非表示
+  - 表示
+    - $excel.Visible = $true
+  - 非表示
+    - $excel.Visible = $false
 
 #### $excel.Workbooks.Open()
 
-* 既存のExcelファイルを開く
+- 既存のExcelファイルを開く
 
 #### $workbook.Worksheets.Item()
 
-* ワークシートを選択する
-  * インデックスで指定する場合
-    * $workbook.Worksheets.Item(1)
-  * シート名で指定する場合
-    * $workbook.Worksheets.Item("SheetName")
+- ワークシートを選択する
+  - インデックスで指定する場合
+    - $workbook.Worksheets.Item(1)
+  - シート名で指定する場合
+    - $workbook.Worksheets.Item("SheetName")
 
 #### $workbook.Save()
 
-* Excelワークブックを保存する
+- Excelワークブックを保存する
 
 #### $workbook.Close()
 
-* Excelワークブックを保存する
+- Excelワークブックを保存する
 
 #### $excel.Quit()
 
-* Excelアプリケーションを終了する
+- Excelアプリケーションを終了する
 
 ---
 
@@ -109,9 +109,9 @@ Remove-Variable excel, workbook, worksheet
 
 #### $excel.Workbooks.Add()
 
-* 新規にExcelワークブックを開く
+- 新規にExcelワークブックを開く
 
 #### $workbook.ActiveSheet
 
-* アクティブなワークシートを取得する
+- アクティブなワークシートを取得する
 

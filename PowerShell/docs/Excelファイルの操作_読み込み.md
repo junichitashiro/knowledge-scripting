@@ -78,15 +78,15 @@ Remove-Variable excel, workbook, worksheet
 
 #### $worksheet.UsedRange
 
-* Excelのワークシートで使用されている範囲を取得する
+- Excelのワークシートで使用されている範囲を取得する
 
 #### $data.GetLength()
 
-* 行数または列数の長さを取得
-  * 行数
-    * $data.GetLength(0)
-  * 列数
-    * $data.GetLength(1)
+- 行数または列数の長さを取得
+  - 行数
+    - $data.GetLength(0)
+  - 列数
+    - $data.GetLength(1)
 
 ---
 
